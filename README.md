@@ -1,78 +1,102 @@
-# Playlist Project
+# Unit 1: Online Portfolio README
 
-## Overview:
-In this unit, coders will create a Playlist. The Playlist will display a list of information about different songs with images and links to play the songs. To create this project, coders will create arrays to hold song information, use a forEach loop to iterate over the arrays, and display data to the screen. They will use .push to add new songs to their playlist. Then, students will refactor their project to using objects instead of arrays to hold their data.
+## Overview
+
+In this unit, coders will review HTML and CSS concepts from the Introduction to Web Development course and build a multi-page professional Portfolio.
 
 ## Day 1
 
-#### Planning
-- [ ] Complete the project planning document.
-#### Set-Up
-- [x] Go to the repository
-- [ ] Fork this repository to your github account and clone to a new workspace
-- [ ] Add, commit, and push your changes
-- [ ] Make your site live on gh-pages
-- [ ] Submit your website using the link on the Agenda
+### Set up
+
+- [ ] Complete the [Project Planning Document](https://docs.google.com/document/d/1_fKb8tA-WGM5TseeW_HNo69xMmTSsvWVoy7N0ewsQKU/edit#heading=h.xbxb68gln6b2).
+
+- [x] Go to the repository.
+
+- [ ] Fork this repository to your GitHub account.
+
+- [ ] Create a new project on Glitch that imports your repo from GitHub.
 
 ### HTML
-- [ ] Create a div to display your songs
 
-### JavaScript
-- [ ] Create an array to store your song names
-- [ ] Repeat these steps for song artist, song length, image, and link
+- [ ] Add a header with your name to your Portfolio homepage.
+
+- [ ] Update the title tag of both of your pages.
+
+- [ ] Create your navigation bar that will link all your pages together.
+
+- [ ] Give your HTML elements classes in order to add Flexbox to the CSS.
+
+- [ ] Write your biography on your About Me page.
+
+### CSS
+
+- [ ] Choose 2-4 colors for your theme and add them as font or background colors.
+
+- [ ] Add flexbox to your navigation bar.
+
+- [ ] Add at least 1 Google Font.
 
 ### Wrap
-- [ ] Push your changes!
+
+- [ ] Submit your work to the session agenda.
 
 ## Day 2
 
-### JavaScript
-- [ ] Create a loop to display your song names
-- [ ] Repeat these steps for song artist, song length, image, and link
+### Set Up
+
+- [ ] Link your homepage and About Me pages together using your nav bar.
+
+- [ ] Add two more HTML files (Projects, Contact) to your Portfolio and link them all together.
+
+- [ ] Upload at least 2 images so they are hosted in your Portfolio.
+
+- [ ] Update the title tags of all your new HTML files.
+
+- [ ] Link your CSS file to all of your HTML files.
+
+### HTML
+
+- [ ] Add a professional headshot of yourself.
+
+In your Projects page, create a display of at least 4 of your old coding projects that includes:
+
+    - [ ] Project name
+    - [ ] Link to project GitHub repo
+    - [ ] Link to project live site
+    - [ ] Short description of project including coding languages used
+    - [ ] Hosted screenshot of project
+
+Add your contact information to your Contact page, including your:
+
+    - [ ] GitHub account
+    - [ ] Email address
+    - [ ] LinkedIn
+    - [ ] Resume
+
+### CSS
+
+- [ ] Format the sizes of all your pictures
 
 ### Wrap
-- [ ] Push your changes!
 
-## Day 3
+- [ ] Push your changes back to your GitHub repo!
 
-## JavaScript
-- [ ] Add song information to your list using .push()
-- [ ] Create a working click handler that retrieves user input, pushes new items to your song arrays, and displays the result to the screen
 
-#### Wrap
-- [ ] Push your changes!
+## Project Extensions
 
-## Day 4
+- [ ] Style your nav bar so the links change color/style when your hover over them or when you click them.
 
-## JavaScript
-- [ ] Comment out your code that refers to arrays
-- [ ] Create Objects in your playlist project that hold all your song information
-- [ ] Combine all your Objects into one array
+- [ ] Add a unordered or ordered list of your accomplishments or favorite things to your About Me page.
 
-#### Wrap
-- [ ] Push your changes!
+- [ ] Make sure all your external links open up into new tabs.
 
-## Day 5
+- [ ] Create a link that pops open the email browser with your email address in the to: field.
 
-## JavaScript
-
-- [ ] Update your .push() method based on your new array of Objects
-- [ ] Update your loop based on your new array of Objects
-- [ ] Finish refactoring your playlist project
-
-#### Wrap
-- [ ] Push your changes!
-
-## Project Extensions:
-- [ ] Add in your own CSS to personalize your project
-- [ ] Use .length to display how many songs are on your list
-- [ ] Add a delete button to delete songs on your list
-- [ ] Refactor your project further by utilizing functions to simplify your code
-- [ ] Add a shuffle button and functionality
-- [ ] Use local storage to save your songs locally
-
+- [ ] Arrange your Projects into a creative interactive or animated photo gallery or slideshow.
 
 ## References/Tools
-* [Advanced Reference Table](https://docs.google.com/document/d/1SElvLDvtVOoYZJyR5XbCQJWbSTxyChDiQkz7n3c63Go/preview)
-* [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
-* [JQuery Events](http://api.jquery.com/category/events/)
+
+* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
+* [W3Schools] (https://www.w3schools.com/)
+* [MDN web docs] (https://developer.mozilla.org/en-US/)
+* [Introduction to Bootstrap] (https://getbootstrap.com/docs/4.1/getting-started/introduction/)

@@ -1,0 +1,11 @@
+/* CSS files add styling rules to your content */
+img {
+  width: 400px;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: grey;
+}
