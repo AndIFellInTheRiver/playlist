@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PlayList Project!</title>
+    <!-- Latest compiled and minified CSS -->
     <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://cdn.glitch.com/86a8d091-6a0e-4802-986f-18802bdfc4ad%2FIcon.ICO?v=1603419985419"
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
     />
-
-    <title>River</title>
-
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./style.css" />
-
-    <!-- import the webpage's javascript file -->
-    <script src="./script.js" defer></script>
+    <!-- Your CSS -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <div class="navBar">
-      <button>
-        <a href="index.html">Home</a>
-      </button>
-      <button>
-        <a href="about.html">About me</a>
-      </button>
-      <button>
-        <a href="projects.html">Projects</a>
-      </button>
+    <h1 class="playlist">My Playlist</h1>
+    <div id="form">
+      <p>Add a new song:</p>
+      <input placeholder="Song Name" id="song" />
+      <input placeholder="Artist Name" id="artist" />
+      <input placeholder="Song Length" id="length" />
+      <input placeholder="Image URL" id="image" />
+      <input placeholder="Song Link Address" id="link" />
+      <button id="add">Add</button>
     </div>
-    <h1>
-      HaoYu Lin
-    </h1>
+    <div class="delete">
+      <input id="removeInput" placeholder="Song position">
+      <button id="remove">Remove</button>
+      <button id="shuffle">Shuffle</button>
+    </div>
+    <div class="recommend">
+      <input id="mood" placeholder = "happy/hype/sleepy/nostalgic">
+      <button id="choose">Recommend</button>
+      <p id = "answer"></p>
+    </div>
+    <div id="cart">
+      <div class="column" id="images"></div>
+      <div class="column" id="songs"></div>
+      <div class="column" id="artists"></div>
+      <div class="column" id="lengths"></div>
+      <div class="column" id="links"></div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Your Javascript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
